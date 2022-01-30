@@ -23,7 +23,12 @@
     <div class="container">
       <h1>Password Generator</h1>
       <div class="form">
-        <input type="text" name="password-content" id="password-content" />
+        <input
+          type="text"
+          name="password-content"
+          id="password-content"
+          readonly
+        />
         <button type="submit" id="copy-to-clipboard">
           <i class="fas fa-clipboard"></i>
         </button>
@@ -34,7 +39,7 @@
       <div class="category-wrapper">
         <div class="category">
           <label for="uppercase">Password length</label>
-          <input type="number" name="length" id="length" value="10" />
+          <input type="number" name="length" id="length" value="15" />
         </div>
         <div class="category">
           <label for="uppercase">Include uppercase letters</label>
