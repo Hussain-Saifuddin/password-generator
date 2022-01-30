@@ -34,7 +34,7 @@
       <div class="category-wrapper">
         <div class="category">
           <label for="uppercase">Password length</label>
-          <input type="number" name="length" id="length" value="8" />
+          <input type="number" name="length" id="length" value="10" />
         </div>
         <div class="category">
           <label for="uppercase">Include uppercase letters</label>
@@ -56,12 +56,6 @@
       <button type="submit" class="generate-password">Generate Password</button>
     </div>
 
-    <script>
-      var copyToClipboard = document.getElementById("copy-to-clipboard");
-      var copyText = document.getElementById("copy-text");
-      copyToClipboard.addEventListener("click", () => {
-        copyText.style.display = "block";
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
